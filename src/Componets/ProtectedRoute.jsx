@@ -3,7 +3,8 @@ import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { auth } from "../config/firebase"
 import SignIn from "../pages/SignIn"
-import { setUser } from "../../../Firebase-todolist/src/features/todos/todoSlice"
+import { setUser } from "../Features/todos/todoSlice"
+
 
 
 const ProtectedRoute = ({ Component }) => {
