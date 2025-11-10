@@ -3,8 +3,9 @@ import { Link, useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import { auth } from "../config/firebase";
 import { LogOut, CheckSquare, LogIn } from "lucide-react";
-import { logout } from "../Features/todos/todoSlice";
+
 import { toast } from "react-toastify";
+import { logout } from "../newfeature/todos/todoSlice";
 
 
 const Header = () => {

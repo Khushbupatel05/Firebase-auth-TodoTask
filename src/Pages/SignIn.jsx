@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import { signInUser, signInWithGoogle } from "../Features/todos/todoSlice.js";
+import { signInUser, signInWithGoogle } from "../newfeature/todos/todoSlice.js";
 import { toast } from "react-toastify";
 
 const SignIn = () => {

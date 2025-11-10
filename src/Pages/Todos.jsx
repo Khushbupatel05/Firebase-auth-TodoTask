@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addTodo,  deleteTodo,  fetchTodo,  updateTodo,} from "../Features/todos/todoSlice.js";
+import { addTodo,  deleteTodo,  fetchTodo,  updateTodo,} from "../newfeature/todos/todoSlice.js";
 import { doc, getDoc } from "firebase/firestore";
 import { db } from "../config/firebase";
 import { toast } from "react-toastify";

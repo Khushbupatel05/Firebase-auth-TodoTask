@@ -3,8 +3,9 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../config/firebase";
 import { useDispatch } from "react-redux";
-import { signUpUser } from "../Features/todos/todoSlice.js";
+
 import { toast } from "react-toastify";
+import { signUpUser } from "../newfeature/todos/todoSlice";
 
 const SignUp = () => {
     const [input, setInput] = useState({
