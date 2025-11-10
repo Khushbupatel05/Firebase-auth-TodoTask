@@ -1,9 +1,11 @@
+
 import { configureStore } from "@reduxjs/toolkit";
-import todoReducer from "../../../Firebase-todolist/src/features/todos/todoSlice";
+import todoReducer from "../Features/todos/todoSlice";
 
+const store = configureStore({
+  reducer: {
+    todos: todoReducer,
+  },
+});
 
-export const store = configureStore({
-    reducer: {
-        todos: todoReducer,
-    }
-})
+export default store;
